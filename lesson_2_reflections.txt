@@ -1,17 +1,20 @@
 What happens when you initialize a repository? Why do you need to do it?
-A hidden folder with name .git will be created.
+- A hidden folder with name .git will be created.
 To start to track changes and see the status of untracked files.
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-Stage area is a place to add files that we need to track, repository is where stage files goes after commit the changes, if i do not want to track a file it will stay at the working directory.
-It gives more control to specify exactly what changes should be committed.
+- Stage area is a place to add files that we need to track, repository is where stage files goes after commit the changes, if i do not want to track a file it will stay at the working directory.
+- It gives more control to specify exactly what changes should be committed.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+- make changes and then use git add FILE to add these changes to staging area then use git commit to commit this one change to repository.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+- testing features i am not sure about it yet, and i do not know if i will include it to the main version.
+- i can make whatever changes i need in the new branch and commit without effect the master branch.
 
 How do the diagrams help you visualize the branch structure?
 
